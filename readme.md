@@ -1,5 +1,7 @@
 ## 🔗Project 14 Link
 
+https://project-14-live-link.netlify.app/
+
 # ✨ Project 14 : Dance Home Page ✨
 
 This assignment is written in **HTML5 and CSS3** which is given in **"JavaScript Full Stack Web Developer Bootcamp"** by **iNeuron**.
@@ -27,7 +29,7 @@ This assignment is written in **HTML5 and CSS3** which is given in **"JavaScript
     👉 -webkit text stroke CSS property.
     👉 How to use SVG images.
 
-## I took 10-hours to build this project and 6-hours to make it responsive. I really enjoyed it 😊.
+## I took 9-hours to build this project and 6-hours to make it responsive. I really enjoyed it 😊.
 
 ## 📌 Acknowledgments
 
