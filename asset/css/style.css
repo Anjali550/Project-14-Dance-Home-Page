@@ -8,13 +8,13 @@
 
 /* Container */
 
-.container {
+.main-container {
   display: flex;
 }
 
 /* Left Content Section */
 
-.content-left {
+.left-section {
   position: relative;
   width: 35vw;
 }
@@ -39,7 +39,7 @@
 
 /* Content Right Section */
 
-.content-right {
+.right-section {
   background-color: #f5f2f0;
   width: 65vw;
   padding: 40px 30px 0px 40px;
@@ -48,7 +48,7 @@
 
 /* Navbar Sub-Section */
 
-.nav-container {
+.nav-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -163,13 +163,13 @@
 
 /* Skills Sub-Section */
 
-.skills {
+.skill {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.skills-content {
+.skill-content {
   display: flex;
 }
 
@@ -182,19 +182,19 @@
   z-index: 1;
 }
 
-.skills-list {
+.skill-list {
   list-style: none;
   width: 7em;
 }
 
-.skills-list li {
+.skill-list li {
   margin-bottom: 30px;
   color: #828282;
   font-size: 14px;
   position: relative;
 }
 
-.skills-list li::before {
+.skill-list li::before {
   content: "";
   background-color: #828282;
   width: 10px;
@@ -250,14 +250,14 @@
 /* Media Queries */
 
 @media screen and (max-width: 1050px) {
-  .container {
+  .main-container {
     flex-direction: column;
   }
-  .content-left {
+  .left-section {
     width: 100vw;
     height: 80vh;
   }
-  .content-right {
+  .right-section {
     width: 100vw;
   }
 }
@@ -289,7 +289,7 @@
     padding: 10px 25px;
     font-size: 12px;
   }
-  .skills {
+  .skill {
     flex-direction: column-reverse;
   }
   .dance-content h1 {
@@ -336,7 +336,7 @@
   .creativity-bottom {
     justify-content: center;
   }
-  .skills {
+  .skill {
     width: 100%;
     margin: auto;
   }
@@ -349,7 +349,7 @@
 }
 
 @media screen and (max-width: 370px) {
-  .content-right {
+  .right-section {
     padding: 40px 5% 0 5%;
   }
   .line {
@@ -376,11 +376,11 @@
     font-size: 11px;
     margin-top: 20px;
   }
-  .skills-list li {
+  .skill-list li {
     margin-bottom: 28px;
     font-size: 12px;
   }
-  .skills-list li::before {
+  .skill-list li::before {
     width: 9px;
     height: 9px;
     top: 3px;
